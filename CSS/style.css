@@ -1,0 +1,209 @@
+body{
+
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif Courier, monospace;
+    text-align: center;
+}
+ /* styling navigation  */
+#navigation{
+    background-color: black;
+}
+
+.menu-list{
+    padding-left: 60px;
+    margin-left: 80px;
+
+}
+li a:hover{
+    color: white !important;
+}
+.btn-outline-success{
+    border: 1px solid;
+   border-color: white;
+   color:#2E5266;
+    
+}
+.btn-outline-success:hover{
+    color: #9FB1BC;
+    border-color: black;
+    background-color: #fff;
+}
+
+.main-copi{
+    padding-top:5%;
+  
+    background-color: #7E8287;
+}
+
+video{
+
+ padding-left: 3%;
+
+}
+
+.vid-spacing{
+   margin-top: 3%;
+}
+
+img{
+    width: 30%;
+}
+
+h4{
+    color:black;
+    font-style: italic;
+}
+
+.bio{
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+/* copied css from css site */
+
+
+.top-container{
+    padding-top: 50px;
+    padding-bottom: 400px;
+    position: relative;
+    background-color:whitesmoke;
+   
+}
+
+.middle-container{
+    padding-top: 50px;
+    background-color: grey;
+}
+
+/***** header begins****/
+h1{
+    color: black;
+    margin:50px auto 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   
+    text-orientation:sideways-right;
+}
+
+
+h2{
+    color:black;
+    font-family: 'merriweather',serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: oblique;
+   
+}
+
+
+h3{
+    color:grey;
+    font-family: 'merriweather',serif;
+}
+/***** header ends***/
+/***** skill content****/
+.skill-row{
+    font-weight:normal;
+    width: 50%;
+    margin: 100px auto 100px auto; 
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img{
+    width: 25%;
+    float:right;
+    margin-left:30px;
+}
+
+.code-img{
+    width:25%;
+    float:left;
+    margin-right:30px;
+}
+.pro-img{
+    border: solid 1px;
+    border-radius: 400px;
+    border-color: aqua;
+}
+/***** skill content****/
+
+
+.para{
+    color:#40514E;
+}
+
+span{
+    color: red;
+}
+
+hr{
+    width: 04%;
+   border-style: dotted;
+   border-bottom: 0;
+   border-width: 5px;
+   color: grey;
+   
+}
+
+/***** Profile Bio****/
+.first-para{
+    width:25%;
+    margin: 100px auto 100px auto; 
+}
+
+/********contact button***********/
+.btn-contact {
+    display: inline-block;
+    margin:100px auto 100px auto;
+    border:solid 2px;
+    border-radius: 7px;
+    width:10%;
+   
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #9FB1BC;
+    border-color: black;
+    background-color: gray;
+  
+    
+    
+}
+.btn-contact a{
+    
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: white;
+    color:#2E5266;
+    
+}
+
+.btn-contact:hover{
+    color: #9FB1BC;
+    border-color: black;
+    background-color: #fff;
+    transition: all ease-in 0.5s0;
+}
+/*******contact button********/
+
+/*******footer begins********/
+.bottom-container{
+    background-color: #66BFBF;
+    margin:0 auto 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #11999E;
+    margin-left: 30px;
+    font-size:small;
+}
+
+.copyright{
+    color: black;
+    font-size:x-small;
+}
+/*******footer ends********/
